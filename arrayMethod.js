@@ -72,5 +72,30 @@ const number1 = [1,2,3,4,5,6,7,8,9,10]
 
 const sumOfArray = number1.reduce(((total,currentValue) => total + currentValue),0)
 
-console.log(sumOfArray)
+// console.log(sumOfArray)
+
+
+const number2 = [12,23,343,4,5]  // iterable
+const name1 = "Safin"  // iterable
+
+// for(let num of number2){
+//     console.log(num)
+// }
+
+// for(let c of name1){
+//     console.log(c)
+// }
+
+
+const myInfo = {
+    name : "Hasibur Rahman Safin",
+    profession : "MERN stack developer",
+    age : 23,
+    goal : "To become a full stack developer",
+
+}
+
+// for(key in myInfo){
+//     console.log(`${key} : ${myInfo[key]} `)
+// }
 
