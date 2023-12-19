@@ -18,4 +18,9 @@ let data2 = language.filter(lan => lan === "Javascript" || lan === "Python")
 
 let data3 = language.slice(1,3)
 
-console.log(data3)
+
+// splice method
+
+// let data4 = language.splice(1,2, "Ruby", "React JS", "Next JS")
+// console.log(data4)
+// console.log(language)
