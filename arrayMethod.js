@@ -65,3 +65,12 @@ let result2 = language.map(item => `${item}:`)
 // console.log(result2)
 
 
+
+// reduce method
+
+const number1 = [1,2,3,4,5,6,7,8,9,10]
+
+const sumOfArray = number1.reduce(((total,currentValue) => total + currentValue),0)
+
+console.log(sumOfArray)
+
