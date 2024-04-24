@@ -8,7 +8,7 @@
 //     console.log("You have enough money to buy this chocolate")
 // }
 
-if(''){
+if(3){
     console.log("True")
 }
 
