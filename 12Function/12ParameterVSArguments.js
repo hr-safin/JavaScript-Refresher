@@ -5,3 +5,10 @@ function addition(x,y){
 
 // arguments are when you provide actual value to the parameters
 addition(34,34)
+
+
+function printName(name){
+    console.log("My name is", name)
+}
+
+printName("Hasibur rahman safin")
