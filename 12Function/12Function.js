@@ -15,3 +15,15 @@ function printMe(){
 
 // calling the function (definition already there in function declaration)
 printMe() // calling or invoking  the function
+
+
+let mark; // declared the mark variable
+
+mark = 56  // defined the variable
+
+
+function markShow(){
+    return mark
+}
+
+console.log(markShow())
