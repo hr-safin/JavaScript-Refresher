@@ -72,3 +72,25 @@ const numbers3 = [1,2,3,4,5,6]
 const total = numbers3.reduce((acc, number) => acc + number, 0)
 
 console.log(total)
+
+
+// fetching data
+
+
+async function fetchData(){
+
+    try{
+        const response = await fetch("https://jsonplaceholder.typicode.com/users")
+
+        if(!response.ok){
+            throw new Error("Network is not working")
+        }
+
+        const data = await response.json()
+        console.log(data)
+    } catch(error){
+        console.log("There has been problem with your fetching data", error)
+    }
+}
+
+fetchData()
