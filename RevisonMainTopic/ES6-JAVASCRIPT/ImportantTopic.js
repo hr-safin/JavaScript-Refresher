@@ -64,3 +64,11 @@ const numbers2 = [1,2,3,4,5,6]
 const newArray = numbers2.map(num =>  num *2)
 
 console.log(newArray)
+
+// reduce
+
+const numbers3 = [1,2,3,4,5,6]
+
+const total = numbers3.reduce((acc, number) => acc + number, 0)
+
+console.log(total)
