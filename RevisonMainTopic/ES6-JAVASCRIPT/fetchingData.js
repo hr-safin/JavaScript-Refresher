@@ -1,0 +1,1 @@
+fetch("http://something.com").then().catch().finally()
